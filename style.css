@@ -1,0 +1,70 @@
+@keyframes square {
+    0% {
+        transform: scale(0.5);
+      }
+      50% {
+        transform: scale(1.5);
+      }
+      100% {
+          transform: scale(0.5);
+      }
+    }
+    
+body {
+    margin: 0 auto;
+    height: 100%;
+    background-color: #6bbcbe;
+}
+.wrap {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+  }
+.load-1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.load-2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.circle {
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.load-2>div {
+    width: 13px;
+    height: 35px;
+    background-color: white;
+
+}
+
+.square-1 {
+    animation: square 2s ease-in-out infinite both;
+}
+
+.square-2 {
+    animation: square 2s ease-in-out 0.3s infinite both;
+}
+
+.square-3 {
+    animation: square 2s ease-in-out 0.6s infinite both;
+}
+
+.square-4 {
+    animation: square 2s ease-in-out 0.9s infinite both;
+}
+
+.square-5 {
+    animation: square 2s ease-in-out 1.2s infinite both;
+}
+
