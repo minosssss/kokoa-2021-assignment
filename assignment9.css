@@ -1,0 +1,43 @@
+
+html {
+    float: left;
+    width: 400px;
+    height: 900px;
+}
+body {
+    padding: 20px 30px;
+    border: 5px solid #00C6AC;
+
+}
+.header {
+    display: flex;
+
+}
+
+.main-page,
+.main-page__column {
+    display: flex; 
+}
+
+.main-page__square{
+    width: 150px;
+    height: 150px;
+    background-color: #FFBC12;
+    border-radius: 10%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-page__square i {
+    color:white;
+    font-size: 50px;
+
+}.main-page__text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.main-page__title {
+    font-size: xx-large;
+}
