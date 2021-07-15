@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 201, 201);
+}
+
+.container {
+  height: 800px;
+  width: 400px;
+  background-color: white;
+}
+header {
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #ffce33;
+}
+
+.search-bar {
+  background-color: white;
+  height: 40px;
+  width: 95%;
+  left: 6px;
+  top: -20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(92, 92, 92, 0.1);
+  position: relative;
+}
+.search-bar::placeholder {
+  padding-left: 40px;
+}
+
+.search-bar + i {
+  position: relative;
+  left: 87%;
+  bottom: 50px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+  position: relative;
+  top: -20px;
+  padding: 0 40px;
+}
+.title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.book__info {
+  display: flex;
+  margin: 20px 0;
+}
+
+.book__info img {
+  height: 180px;
+  width: 120px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+.book__info-specific {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.book__info-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+.book__info-author {
+  font-size: 14px;
+  color: black;
+  opacity: 0.5;
+}
+.stars {
+  color: #ffce33;
+}
+
+.stars i:last-child {
+  color: #ededed;
+}
+
+.book__category {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.book__btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book__bookmark {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ffce33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book__now {
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  position: relative;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
