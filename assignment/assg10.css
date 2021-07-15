@@ -82,6 +82,7 @@ main {
 }
 .stars {
   color: #ffce33;
+  margin-bottom: 10px;
 }
 
 .stars i:last-child {

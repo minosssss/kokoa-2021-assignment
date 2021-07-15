@@ -116,6 +116,7 @@ header span {
   background-color: white;
   position: relative;
   left: 8px;
+  top: -20px;
   border: 1px solid gray;
   border-radius: 20px;
   font-size: var(--font-small);
