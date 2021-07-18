@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>You Are Awesome!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="music.css">
+  </head>
+  <body>
+        <div class="screen">
+        <header class="screen__header">
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-search"></i>
+        </header>
+        <main>
+          <section class="play-list__info">
+            <img src="img/ed.jpg" />
+            <h1>Ed Shreen</h1>
+            <h2>Singer, Songwriter</h2>
+          </section>
+          <section class="play-list__btns">
+            <button>Shuffle</button>
+            <button>
+              <i class="fas fa-heart fa-lg"></i>
+              <span>212,971</span>
+            </button>
+          </section>
+          <ul class="music__list">
+            <li class="music__list__songs">
+              <img class="music__list__cover" src="img/shape-of-you.jpg" />
+              <div class="music__list__info">
+                <i class="fas fa-music fa-lg"></i>
+                <h5>Ed Shreen</h5>
+                <h4>Shape Of You</h4>
+              </div>
+              <i class="fas fa-play fa-xs"></i>
+            </li>
+            <li class="music__list__songs">
+              <img class="music__list__cover" src="img/little-bird.jpg" />
+              <div class="music__list__info">
+                <h5>Ed Shreen</h5>
+                <h4>Little Bird</h4>
+              </div>
+              <i class="fas fa-play fa-xs"></i>
+            </li>
+            <li class="music__list__songs">
+              <img class="music__list__cover" src="img/perfect.jpg" />
+              <div class="music__list__info">
+                <h5>Ed Shreen</h5>
+                <h4>Perfect</h4>
+              </div>
+              <i class="fas fa-play fa-xs"></i>
+            </li>
+            <li class="music__list__songs">
+              <img class="music__list__cover" src="img/ruanaway.jpg" />
+              <div class="music__list__info">
+                <h5>Ed Shreen</h5>
+                <h4>Runaway</h4>
+              </div>
+              <i class="fas fa-play fa-xs"></i>
+            </li>
+          </ul>
+          <section class="music__now">
+            <div class="music__now__info">
+              <h5>Ed Shreen</h5>
+              <h4>Shape Of You</h4>
+            </div>
+            <div class="music__now__buttons">
+              <i class="fas fa-step-backward fa-sm"></i>
+              <i class="fas fa-pause"></i>
+              <i class="fas fa-step-forward fa-sm"></i>
+            </div>
+          </section>
+        </main>
+    </div>
+
+    <div class="screen">
+        <header class="screen__header">
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </header>
+        <main class="music__playing">
+          <section class="music__playing__info">
+            <img src="img/shape-of-you.jpg" />
+            <h1>Shape Of You</h1>
+            <h5>Ed Sheeran</h5>
+          </section>
+          <section class="music__playing__bar">
+            <div class="music__playing__bar__time">
+              <span>1:56</span>
+              <span>2:21</span>
+            </div>
+            <div class="music__playing__bar__handle">
+              <div class="music__playing__bar__line__left"></div>
+              <div class="music__playing__bar__circle"></div>
+              <div class="music__playing__bar__line__right"></div>
+            </div>    
+          </section>
+          <section class="music__playing__btns">
+            <i class="fas fa-retweet"></i>
+            <i class="fas fa-step-backward"></i>
+            <div>
+              <i class="fas fa-pause music__playing__btns__pause"></i>
+            </div>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-random"></i>
+          </section>
+        </main>
+    </div>
+  </body>
+</html>
