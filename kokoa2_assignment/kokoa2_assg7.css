@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin: 50px 0;
+}
+section {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main {
+  width: 48%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.main:first-child {
+  background-color: tomato;
+}
+
+.main:nth-child(2) {
+  background-color: teal;
+}
+.main:nth-child(3) {
+  background-color: burlywood;
+}
+.main:last-child {
+  background-color: thistle;
+}
+
+.big {
+  height: 400px;
+  border: 3px solid white;
+}
+
+.name {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 50px;
+  padding: 0px 15px;
+}
